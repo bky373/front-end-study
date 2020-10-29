@@ -1,0 +1,44 @@
+body {
+    background: tomato;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background: white;
+    border-bottom: 1px solid lightgray;
+}
+
+.container {
+    width: 980px;
+    margin: auto;
+    padding: 20px 0;
+}
+
+.conainer-left {}
+
+.logo {
+    float: left;
+    margin-right: 5px;
+}
+
+.logo img {
+    padding: 4px;
+    display: block;
+}
+
+.menu {
+    float: left; /* logo와 menu를 수평 정렬하기 위해 사용 */
+}
+
+.menu-item {
+    float: left; /* 각 menu-item들을 수평 정렬하기 위해 사용 */
+    padding: 8px 10px;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
